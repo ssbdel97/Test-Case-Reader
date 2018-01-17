@@ -1,4 +1,5 @@
 import requests,bs4
+#replace the url by your url
 s=requests.get("http://codeforces.com/problemset/problem/910/B")
 try:
 	s.raise_for_status()
